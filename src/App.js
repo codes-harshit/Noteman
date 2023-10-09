@@ -1,9 +1,18 @@
+import "./index.css"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import CreateArea from "./components/CreateArea"
+import Note from "./components/Note"
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+    <Header />
+    <CreateArea />
+    <Note />
+    
+    <Footer />
+    </>
   );
 }
 
